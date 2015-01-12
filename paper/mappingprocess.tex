@@ -1,3 +1,25 @@
+For performing our systematic mapping we adopt the method proposed in \cite{SM} consisting  of five  steps: 
+\begin{enumerate}
+\item \textbf{Definition of research questions}, to determine the research
+scope;  
+\item \textbf{Search of primary papers}, to select candidate papers expressing a
+query for retrieving references from scientific databases; 
+\item \textbf{Screening of papers}, to identify relevant papers using
+inclusion and exclusion criteria   to narrow
+the number of papers of interest; 
+\item \textbf{Keywording of abstracts}, to identify terms that are used
+for producing  classification schemes (mapping categories); 
+\item \textbf{Data extraction and mapping process}, to produce the systematic
+mapping by clustering the papers into the mapping categories.
+\end{enumerate}
+
+The results of the systematic mapping are presented as
+bubble plots in the next section. These visual representations have two main
+benefits: (i) it can show the relevance of the mapping facets/categories
+has changed over time and (ii) it can reveal research opportunities
+hidden on the blanks found among classification categories, pointing
+topic areas and types of publications yet to be investigated.
+
 %.........................................................
 \subsection{Research questions}
 \label{sec:ResearchQuestions}
@@ -48,3 +70,53 @@ map-reduce \textbf{OR} mapreduce \textbf{OR} hadoop \textbf{OR} pig)
 design-patterns \textbf{OR} design pattern
 \textbf{OR} designpattern \textbf{OR} design-pattern)
 \end{quote}
+
+
+\begin{table}\centering
+\begin{tabular}{|l|c|c|c|} \hline
+\textbf{Source/Action}	& \textbf{Included}	& \textbf{Excluded}	& \textbf{Total}	\\ \hline
+\textit{ACM-DL}				& 3								& 3								& 6						\\ \hline
+\textit{IEEE}						& 28								& 156								& 188					\\ \hline
+\textit{Science Direct}	& 1								& 1							& 2					\\ \hline
+\textbf{Total}					& \textbf{32}			& \textbf{164}			& \textbf{196}	\\ \hline
+\end{tabular}
+\caption{\label{table:Sources}Sources and number of papers.}
+\end{table}
+
+We searched and filtered relevant works in four steps. 
+In the first  step we
+searched in four databases: \textit{Science Direct}\footnote{\tt
+http://www.sciencedirect.com/}, \textit{IEEE}\footnote{\tt
+http://ieeexplore.ieee.org/} and \textit{ACM Digital Library}\footnote{\tt
+http://dl.acm.org/} (see table \ref{table:Sources}).
+We retrieved 196 works. 
+The search was done for relevant publications from 1998 to 2014. 
+We stored in several spreadsheets (one per database) the title, year,  and abstract of each reference we found. 
+
+In the second step, we perform a data cleaning by excluding repeated works.  
+
+We performed another filtering procedure by screening the title and the abstract
+of the papers, looking for those papers that are relevant to our study.
+In this process, we excluded 164 works. 
+The columns \textbf{Included} and \textbf{Excluded} in Table~\ref{table:Sources}
+show the number of papers that were considered (resp. excluded) on our study.
+
+Finally, in the last step we built the final data collection using exclusion
+and inclusion criteria shown in table \ref{table:criteria}. The final data
+collection contained 32 papers.
+
+ 
+\begin{table}\centering \small
+\begin{tabular}{|l|} \hline
+\textbf{Inclusion criteria}		\\ \hline\hline
+- Text in English								\\ \hline
+- Peer reviewed journals, conferences or workshops	\\ \hline
+- PhD and master thesis	\\ \hline
+- Focus on Map Reduce Design Patter and Big Data				\\ \hline\hline
+\textbf{Exclusion criteria}		\\ \hline\hline	
+- Abstracts, tutorials, short papers, PhD workshops, demonstrations, technical reports		\\ \hline	
+- Papers dealing with service service lookup		\\ \hline
+- Papers dealing with service matching 	\\ \hline
+\end{tabular}
+\caption{\label{table:criteria} Inclusion and exclusion criteria.}
+\end{table}
