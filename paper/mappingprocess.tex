@@ -1,17 +1,17 @@
-For performing our systematic mapping we adopt the method proposed in \cite{SM} consisting  of five  steps: 
-\begin{enumerate}
-\item \textbf{Definition of research questions}, to determine the research
-scope;  
-\item \textbf{Search of primary papers}, to select candidate papers expressing a
-query for retrieving references from scientific databases; 
-\item \textbf{Screening of papers}, to identify relevant papers using
-inclusion and exclusion criteria   to narrow
-the number of papers of interest; 
-\item \textbf{Keywording of abstracts}, to identify terms that are used
-for producing  classification schemes (mapping categories); 
-\item \textbf{Data extraction and mapping process}, to produce the systematic
-mapping by clustering the papers into the mapping categories.
-\end{enumerate}
+% For performing our systematic mapping we adopt the method proposed in \cite{SM} consisting  of five  steps: 
+% \begin{enumerate}
+% \item \textbf{Definition of research questions}, to determine the research
+% scope;  
+% \item \textbf{Search of primary papers}, to select candidate papers expressing a
+% query for retrieving references from scientific databases; 
+% \item \textbf{Screening of papers}, to identify relevant papers using
+% inclusion and exclusion criteria   to narrow
+% the number of papers of interest; 
+% \item \textbf{Keywording of abstracts}, to identify terms that are used
+% for producing  classification schemes (mapping categories); 
+% \item \textbf{Data extraction and mapping process}, to produce the systematic
+% mapping by clustering the papers into the mapping categories.
+% \end{enumerate}
 
 The results of the systematic mapping are presented as
 bubble plots in the next section. These visual representations have two main
@@ -21,11 +21,11 @@ hidden on the blanks found among classification categories, pointing
 topic areas and types of publications yet to be investigated.
 
 %.........................................................
-\subsection{Research questions}
-\label{sec:ResearchQuestions}
+% \subsection{Research questions}
+% \label{sec:ResearchQuestions}
 %.........................................................
 
-... In order to achieve this goal we formulated three research questions:
+%... In order to achieve this goal we formulated three research questions:
 
 \begin{itemize}
 \item {\em RQ1: Which are the main map reduce design patterns used in data
@@ -51,25 +51,25 @@ compounds, and which kind of composition is made.
 
 \end{itemize}
 
-%.........................................................
-\subsection{Search and Retrieval of Papers}
-
-%\subsection{Expressing the  query for generating a data collection}
-%.........................................................
-Considering the research questions, we defined a set of keywords to be used for
-searching relevant works. Based on these keywords and their
-correlated words the query used was:        
- 
-\begin{quote} \sl
-\qquad  (big data \textbf{OR} bigdata \textbf{OR} map reduce \textbf{OR}
-map-reduce \textbf{OR} mapreduce \textbf{OR} hadoop \textbf{OR} pig)
-
-\textbf{AND}
-
-\qquad (design patterns \textbf{OR} designpatterns \textbf{OR}
-design-patterns \textbf{OR} design pattern
-\textbf{OR} designpattern \textbf{OR} design-pattern)
-\end{quote}
+% %.........................................................
+% \subsection{Search and Retrieval of Papers}
+% 
+% %\subsection{Expressing the  query for generating a data collection}
+% %.........................................................
+% Considering the research questions, we defined a set of keywords to be used for
+% searching relevant works. Based on these keywords and their
+% correlated words the query used was:        
+%  
+% \begin{quote} \sl
+% \qquad  (big data \textbf{OR} bigdata \textbf{OR} map reduce \textbf{OR}
+% map-reduce \textbf{OR} mapreduce \textbf{OR} hadoop \textbf{OR} pig)
+% 
+% \textbf{AND}
+% 
+% \qquad (design patterns \textbf{OR} designpatterns \textbf{OR}
+% design-patterns \textbf{OR} design pattern
+% \textbf{OR} designpattern \textbf{OR} design-pattern)
+% \end{quote}
 
 % 
 % \begin{table}\centering
@@ -120,7 +120,7 @@ collection contained 32 papers.
 \caption{\label{table:criteria} Inclusion and exclusion criteria.}
 \end{table}
 
-\subsection{Dimensional Analysis} 
+%\subsection{Dimensional Analysis} 
 
 According to our research questions and to our interests, the papers were classified into five analysis facets. 
 Analysis facets are classification schemes  that define mapping categories to cluster and analyze the papers. 
@@ -253,23 +253,57 @@ Network		&
 \caption{\label{table:biblioResearch} Facet: Research Type.}
 \end{table}
 
-%_____________________________________________________
-\paragraph{\bf\em Usage Standard}  
-%_____________________________________________________
-Refers to the concrete result described in a reference: {\em single pattern},
-and {\em composed pattern}.
-\begin{table}\centering
-\footnotesize
-\begin{tabular}{|c|c|}\hline
-\textbf{Dimension} & \textbf{References} \\ \hline
-%\multirow{6}{*}{\begin{sideways} \textbf{Sw Pr Phase} \end{sideways} } & 
-%\\ \cline{2-3}
-Single Pattern	& 
-\parbox{0.6\textwidth}{\cite{}.}
-\\ \hline
-Composed Pattern	& 
-\parbox{0.6\textwidth}{\cite{}.}
-\\ \hline
-\end{tabular}
-\caption{\label{table:biblioResearch} Facet: Research Type.}
-\end{table}
+% %_____________________________________________________
+% \paragraph{\bf\em Usage Standard}  
+% %_____________________________________________________
+% Refers to the concrete result described in a reference: {\em single pattern},
+% and {\em composed pattern}.
+% \begin{table}\centering
+% \footnotesize
+% \begin{tabular}{|c|c|}\hline
+% \textbf{Dimension} & \textbf{References} \\ \hline
+% %\multirow{6}{*}{\begin{sideways} \textbf{Sw Pr Phase} \end{sideways} } & 
+% %\\ \cline{2-3}
+% Single Pattern	& 
+% \parbox{0.6\textwidth}{\cite{}.}
+% \\ \hline
+% Composed Pattern	& 
+% \parbox{0.6\textwidth}{\cite{}.}
+% \\ \hline
+% \end{tabular}
+% \caption{\label{table:biblioResearch} Facet: Research Type.}
+% \end{table}
+
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{figs/ContributionPerYear.pdf}
+\caption{Contribution per year}
+\label{fig:contribution-per-year}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.47]{figs/Contribution-Patterns-Domain.pdf}
+\caption{Facet Contribution being related with the facets Pattern
+Classification and Application Domain}
+\label{fig:contribution-patterns-domain}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.47]{figs/Research-Patterns-Domain.pdf}
+\caption{Facet Research being related with the facets Pattern
+Classification and Application Domain}
+\label{fig:research-patterns-domain}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{figs/Patterns-Domain.pdf}
+\caption{Facets Pattern
+Classification and Application Domain relationship}
+\label{fig:patterns-domain}
+\end{figure}
+
+
