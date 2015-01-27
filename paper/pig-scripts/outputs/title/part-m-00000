@@ -1,0 +1,206 @@
+8	Bidding Strategies in QoS-Aware Cloud Systems Based on N-Armed Bandit Problems
+36	Enhanced Weighted Round Robin (EWRR) with DVFS Technology in Cloud Energy-Aware
+37	Network-aware resource allocation for cloud elastic applications
+65	Semantic Analysis of energy consumption for estimating SLA violation with
+72	MORPHOSYS: Efficient Colocation of QoS-Constrained Workloads in the Cloud
+87	Predicting cloud resource provisioning using machine learning techniques
+89	Implementing a novel load-aware auto scale scheme for private cloud resource management platform
+96	A Cost Effective Cloud Datacenter Capacity Planning Method Based on Modality Cost Analysis
+99	Reliable Service Allocation in Clouds
+103	Efficient and Robust Allocation Algorithms in Clouds under Memory Constraints
+115	Adaptive Scheduling on Power-Aware Managed Data-Centers Using Machine Learning
+120	Resource scheduling algorithm and ecnomic model in ForCES networks
+133	Automatic generation of platforms in cloud computing
+152	Improving consolidation of virtual machines with risk-aware bandwidth oversubscription in compute clouds
+165	Market-Oriented Grid Computing and the Gridbus Middleware
+166	Autonomic Cloud Computing: Open Challenges and Architectural Elements
+168	SLA-oriented resource provisioning for cloud computing: Challenges, architecture, and solutions
+170	Special section: Federated resource management in grid and cloud computing systems
+172	Cloud computing and emerging IT platforms: Vision, hype, and reality for delivering computing as the 5th utility
+180	Dynamic VM Consolidation for Energy-Aware and SLA Violation Reduction in Cloud Computing
+181	SLA-aware Resource Management for Application Service Providers in the Cloud
+186	Probabilistic versus possibilistic risk assessment models for optimal service level agreements in grid computing
+188	Elastic Allocation and Automatic Migration Scheme for Virtual Machines
+189	VOLTAIC: Volume Optimization Layer To AssIgn Cloud
+190	Autonomic resource provisioning in cloud systems with availability goals
+191	Mechanisms for SLA provisioning in cloud-based service providers
+193	Architectures for autonomic service management in cloud-based systems
+200	Auction-Based Resource Provisioning with SLA Consideration on Multi-cloud Systems
+206	Tradeoffs Between Profit and Customer Satisfaction for Service Provisioning in the Cloud
+207	Consolidating complementary VMs with spatial/temporal-awareness in cloud datacenters
+208	Characterizing web application performance for maximizing service providers' profits in clouds
+220	Dynamic resource allocation using auto-negotiation in Haizea
+228	Recovering Host Overloading in Cloud using Virtual Machines
+229	SLA-driven Elastic Cloud Hosting Provider
+239	RMORM: A framework of Multi-objective Optimization Resource Management in Clouds
+240	Obm - an Optimal Bandwidth Management Strategy to Virtual Machines in Cloud Environment Using Predictive Analytics
+244	An intelligent approach for virtual machine and QoS provisioning in cloud computing
+255	EC2 performance analysis for resource provisioning of service-oriented applications
+259	Elastic Resources Framework in IaaS, Preserving Performance SLAs
+265	QoS Management in Cloud@Home Infrastructures
+268	Energy Efficient VM Placement Supported by Data Analytic Service
+272	An energy aware framework for virtual machine placement in cloud federated data centres
+278	Performance of Cloud Computing Centers with Multiple Priority Classes
+281	Autonomous resource provision in virtual data centers
+290	Structure-aware online virtual machine consolidation for datacenter energy improvement in cloud computing
+291	Optimizing Resource Allocation while handling SLA
+292	Optimizing Resource allocation while handling SLA violations in Cloud Computing platforms
+297	Simulated-Annealing Load Balancing for Resource Allocation in Cloud Environments
+298	RPPS: A Novel Resource Prediction and Provisioning Scheme in Cloud Data Center
+299	Economics-Driven Software Architecture
+307	Revenue Maximization Using Adaptive Resource Provisioning in Cloud Computing Environments
+316	The right tool for the job: Switching data centre management strategies at runtime
+326	Proposed cloud architecture for automated & reliable service provisioning of engineering educational domain
+327	Survey of virtual machine placement in federated clouds
+332	Service level agreement based energy-efficient resource management in cloud data centers
+333	An Energy and Deadline Aware Resource Provisioning, Scheduling and Optimization Framework for Cloud
+336	SLA-based resource provisioning for heterogeneous workloads in a virtualized cloud datacenter
+337	SLA-based virtual machine management for heterogeneous workloads in a cloud datacenter
+347	Feedback-based optimization of a private cloud
+349	Energy-efficient resource management of cloud datacenters under fault tolerance constraints
+360	System management to comply with SLA availability guarantees in cloud computing
+363	Sla-based, energy-efficient resource management in cloud computing systems
+364	SLA-based Optimization of Power and Migration Cost in Cloud Computing
+	Pervasive use of cloud computing and resulting rise in the number of hosting datacenters (which provide platform or software services to clients who do not have the means to set up and operate their own facilities) have brought forth many challenges including energy cost, peak power dissipation, cooling, carbon emission, etc. With power consumption becoming an increasingly important issue for the operation and maintenance of the hosting datacenters, corporate and business owners are becoming increasingly concerned. Furthermore provisioning resources in a cost-optimal manner so as to meet different criteria such as response time, throughput, network bandwidth, etc. has become a critical challenge. The goal of this chapter is to provide a review of resource provisioning and power management strategies that optimize serverrelated energy costs in a datacenter while meeting the stipulated service level agreements in terms of throughput and response time.
+366	Resource allocation and consolidation in a multi-core server cluster using a Markov decision process model
+367	Multi-dimensional SLA-Based Resource Allocation for Multi-tier Cloud Computing Systems
+368	Maximizing Profit in Cloud Computing System via Resource Allocation
+377	Risk-Driven Proactive Fault-Tolerant Operation of IaaS Providers
+379	A virtual machine repacking in clouds: faster live migration algorithms
+395	Research on the Cloud Service Privacy Protection Issues
+396	SLA validation in layered cloud infrastructures
+407	A method of virtual machine placement based on gray correlation degree
+415	Application-Aware Resource Allocation for SDN-based Cloud Datacenters
+422	Resource provisioning for cloud computing
+423	An adaptive resource management scheme in cloud computing
+425	CLOUD COMPUTING IN SPACE
+428	Migration-Based Elastic Consolidation Scheduling in Cloud Data Center
+430	M-convex VM Consolidation: Towards a Better VM Workload Consolidation
+431	A virtual machine consolidation framework for MapReduce enabled computing clouds
+438	A SLA driven VM auto-scaling method in hybrid cloud environment
+439	A method for fast switching of redundant networks between data centers
+441	SLA-Driven Adaptive Resource Management for Web Applications on a Heterogeneous Compute Cloud
+444	Adaptive resource provisioning for read intensive multi-tier applications in the cloud
+446	MORPHOSYS: Efficient Colocation of QoS-Constrained Workloads
+452	OPTIMIZING SERVICE REPLICATION IN CLOUDS
+457	Resource Allocation in Contending Virtualized Environments through VM Performance Modeling and Feedback
+458	Guide-copy: Fast and silent migration of virtual machine for datacenters
+460	Optimal Cloud Resource Auto-Scaling for Web Applications
+473	Cost adaptive workflow scheduling in cloud computing
+480	SCDA: SLA-Aware Cloud Datacenter Architecture for Efficient Content Storage and Retrieval
+483	A hierarchical, topology-aware approach to dynamic data centre management
+492	Cloud Computing: Service Provisioning and User Requirements
+494	A new approach for optimum resource utilization in cloud computing environments
+497	Guide-copy: fast and silent migration of virtual machine for datacenters
+500	Virtual machine consolidation based on interference modeling
+504	An energy-efficient approach for virtual machine placement in cloud based data centers
+510	Dynamic, behavioral-based estimation of resource provisioning based on high-level application terms in Cloud platforms
+517	An efficient framework for resource allocation in cloud computing
+521	Survey on Resource Allocation Methods in Cloud Computing
+525	A QoS Assurance Middleware Model for Enterprise Cloud Computing
+529	Exploiting Performance and Cost Diversity in the Cloud
+533	A research of resource scheduling strategy with SLA restriction for cloud computing based on Pareto optimality M_N production model
+536	Optimization of Resource Scheduling in Cloud Computing
+539	Energy-Efficient Resource Provisioning with SLA Consideration on Cloud Computing
+542	Resource management techniques for handling requests with service level agreements
+543	Verifying cloud Service Level Agreement
+551	SPRNT: An Aggressive Approach to Dynamically Schedule Resources with Limited Service Failure in VM-Based Data Centers
+560	Embedding games: distributed resource management with selfish users
+563	VM scaling based on Hurst exponent and Markov transition with empirical cloud data
+570	Hybrid shuffled frog leaping algorithm for energy-efficient dynamic consolidation of virtual machines in cloud data centers
+573	Ontology-based resource management for cloud computing
+585	Cloud computing and its applications
+596	Simulating autonomic sla enactment in clouds using case based reasoning
+607	A SLA-compliant Cloud resource allocation framework for N-tier applications
+615	Cross-Correlation Prediction of Resource Demand for Virtual Machine Resource Allocation in Clouds
+625	SLA-Aware Profit Optimization in Cloud Services via Resource Scheduling
+630	Customer-aware resource overallocation to improve energy efficiency in realtime Cloud Computing data centers
+633	Decreasing Impact of SLA Violations:A Proactive Resource Allocation Approachfor Cloud Computing Environments
+634	Shared Resource Monitoring and Throughput Optimization in Cloud-Computing Datacenters
+640	An Evolutionary Approach for SLA-based Cloud Resource Provisioning
+645	An efficient virtual machine provisioning mechanism for cloud data center
+653	Autonomic virtual resource management for service hosting platforms
+658	SLA achievement by negotiation in a cloud
+663	Modality Cost Analysis: A Methodology for Cost Effective Datacenter Capacity Planning in the Cloud
+664	COST EFFECTIVE DATACENTER CAPACITY PLANNING ANALYSIS USING MODALITY COST METHODOLOGY
+	"In resource provisioning for datacenters, an important issue is how resources may 
+667	The network aspect of Infrastructure-as-a-Service
+668	A scalable and adaptive cloud-based message brokering service
+670	Cloud Computing: Resource Management and Service Allocation
+679	Virtual machine performance measurement
+680	Impact of memory intensive applications on performance of cloud virtual machine
+685	A survey on cloud computing resource allocation techniques
+689	VM Provisioning Method to Improve the Profit and SLA Violation of Cloud Service Providers
+690	Resource optimization and cost reduction by dynamic virtual machine provisioning in cloud
+695	Priority based dynamic resource allocation in Cloud computing with modified waiting queue
+696	Priority Based Dynamic Resource Allocation in Cloud Computing
+697	Service Level Agreement-Based Joint Application Environment Assignment and Resource Allocation in Cloud Computing Systems
+698	Energy-efficient datacenters
+705	A solution of thin-thick client collaboration for data distribution and resource allocation in cloud computing
+708	Energy-efficient and fault tolerant methods for message delivery in Internet of Things
+711	Comparison of Virtual Machine Scheduling Algorithms in Cloud Computing
+712	Resource Allocation and SLA Determination for Large Data Processing Services over Cloud
+714	Optimal update frequency model for physical machine state change and virtual machine placement in the cloud
+715	DBA-VM: Dynamic bandwidth allocator for virtual machines
+725	Resource provisioning for SLA management
+726	A bio inspired Energy-Aware Multi objective Chiropteran Algorithm (EAMOCA) for hybrid cloud computing environment
+732	Distributed resource exchange: Virtualized resource management for SR-IOV InfiniBand clusters
+735	Resource Management Techniques in Cloud Environment- A Brief Survey
+741	Resource Allocation Scheme in Cloud Infrastructure
+745	The load balancing algorithm in cloud computing environment
+750	Cloud ERP simulation in powersim environment
+754	Reducing service failures by failure and workload aware load balancing in SaaS clouds
+756	Efficient Parallel Data Management Providing Load Balancing Service in Cloud Environment
+758	Revenue-Based resource management on shared clouds for heterogenous bursty data streams
+762	An economic agent maximizing cloud provider revenues under a pay-as-you-book pricing model
+767	Estimating service response time for elastic cloud applications
+768	A QoS-Oriented Inter-cloud Federation Framework
+770	Seedling biomass allocation and vital rates of cloud forest tree species: Responses to light in shade house conditions
+775	Dynamic Power- and Failure-Aware Cloud Resources Allocation for Sets of Independent Tasks
+784	Efficient Deployment of Main-Memory DBMS in Virtualized Data Centers
+787	Negotiation-Based Flexible SLA Establishment with SLA-driven Resource Allocation in Cloud Computing
+792	Energy efficient architectural framework for virtual machine management in IaaS clouds
+797	SLA-driven dynamic capacity forecasting and resource allocation with risk analysis on clouds
+815	An SLA-based cloud computing that facilitates resource allocation in the distributed data centers of a cloud provider
+817	IdleCached: An Idle Resource Cached Dynamic Scheduling Algorithm in Cloud Computing
+832	A Service Level Agreement for the Resource Transaction Risk Based on Cloud Bank Model
+833	Architecture for quality of service guarantee using Finite Time Response-HTTP
+836	A solution for implementing resilience in open source Cloud platforms
+837	Pack2: vm resource scheduling for fine-grained application slas in highly consolidated environment
+839	SageShift: Managing SLAs for highly consolidated cloud
+840	Benchmarking Private Cloud Performance with User-Centric Metrics
+846	ArA: Adaptive resource allocation for cloud computing environments under bursty workloads
+852	A distributed storage system allowing application users to reserve I/O performance in advance for achieving SLA
+857	A combined frequency scaling and application elasticity approach for energy-efficient cloud computing
+874	Performance and Power Management for Cloud Infrastructures
+875	SLA-Aware Virtual Resource Management for Cloud Infrastructures
+877	User subscription-based resource management for Desktop-as-a-Service platforms
+890	A Unified Management Model for Data Intensive Storage Clouds
+894	Just Satisfactory Resource Provisioning for Parallel Applications in the Cloud
+900	Response Time Reliability in Cloud Environments: An Empirical Study of n-Tier Applications at High Resource Utilization
+902	A Game Theoretic Framework of SLA-based Resource Allocation for Competitive Cloud Service Providers
+905	Elastic resource management for heterogeneous applications on PaaS
+908	Optimal application allocation on multiple public clouds
+911	SLA-Based Resource Allocation for Software as a Service Provider (SaaS) in Cloud Computing Environments
+913	SLA-based Resource Provisioning for Software-as-a-Service Applications in Cloud Computing Environments
+917	Reputation-Based QoS Provisioning in Cloud Computing via Dirichlet Multinomial Model
+920	Intelligent management of virtualized resources for database systems in cloud environment
+934	A business-oriented Cloud federation model for real-time applications
+941	Profit-driven resource scheduling for virtualized cloud systems
+943	SLA-driven dynamic resource provisioning for service provider in cloud computing
+946	Intelligent Database Placement in Cloud Environment
+947	SLA-based virtualized resource allocation for multi-tier web application in cloud simulation environment
+948	A penalty-based grouping genetic algorithm for multiple composite SaaS components clustering in Cloud
+952	An adaptive Qos-aware cloud
+961	An adaptive power management framework for autonomic resource configuration in cloud computing infrastructures
+963	A statistical based resource allocation scheme in cloud
+970	Meeting service level agreement cost-effectively for video-on-demand applications in the cloud
+1026	SparkMed: a framework for dynamic integration of multimedia medical data into distributed m-Health systems.
+1113	Application of Hadoop MapReduce technique to Virtual Database system design
+1125	Contextualising imagery: Conceptual design for a virtual laboratory for environmental accounting and resource management (vLEARM)
+1126	Towards multi-tenant and interoperable monitoring of virtual machines in cloud
+1135	Network implications of cloud computing
+1312	Optimal resource allocation and adaptive call Admission control for voice/data integrated cellular
+1319	Proceedings 2004 VLDB Conference
+1329	DISTRIBUTED ON-LINE DIGITIZED CONTROL ARCHITECTURES FOR PROCESS CONTROL
+1347	Network implications of cloud computing
