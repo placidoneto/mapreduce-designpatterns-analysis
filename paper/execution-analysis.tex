@@ -1,0 +1,44 @@
+\subsection{Political Big Data Analysis}
+\label{:sec:election-analysis}
+
+% Big data and political event  (both, a political event or an
+% election) can be used considering what users react publishing their point of
+% view in social networks, by analysing online information seeking during the
+% political event.
+% 
+% The overall aim of this case study is to enhance current research on the use of
+% internet generated "big data" coming social media for
+% understand how people react considering a political event.
+% This is an area which has generated considerable interest in computer science and political science, yet
+% also much disappointment, following the poor predictive power identified by much
+% current research (for example, the number of times vips - very importante
+% persons/politicals - are mentioned on Twitter).
+
+The analysis is done considering the map reduce design patterns presented in
+\cite{}. The execution values is presented for 5 data size intervals: 1-5Mb;
+50-60Mb; 90-120Mb; 450-550Mb; and 900Mb-1.1Gb.
+ 
+\subsection{Summarization Pattern} 
+ 
+\textit{Problem-1:} Given a list of user’s comments, determine the first and
+last time a user commented and the total number of comments from that user. 
+
+\textbf{done. numerical.pig file}
+             
+\textit{Problem-2:} Given a list of user’s comments, determine the average comment length per
+hour of day.
+
+\textbf{not done yet. Problem in defining mediana e standar deviation.}
+             
+
+\textit{Problem-2:} Given a set of user’s comments, build an inverted index of
+Wikipedia URLs to a set of answer post IDs .
+
+\subsubsection{Memory Management}
+
+Pig allocates a fix amount of memory to store bags and spills to disk as soon as
+the memory limit is reached. This is very similar to how Hadoop decides when to
+spill data accumulated by the combiner. The amount of memory allocated to the
+use of bags. The default is set to 20\% (0.2) of available memory. Note that
+this memory is shared across all large bags used by the application.    
+ 
