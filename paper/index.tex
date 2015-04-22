@@ -174,8 +174,10 @@
 %% \address{Address\fnref{label3}} 
 %% \fntext[label3]{}
  
-\title{Comparing MapReduce Design Patterns for Big Data
-Analysis: Definition and Implementation}
+\title{Design Patterns for Big Data Analytic: Unifying Concepts for Data
+Cleansing, Transformation and Organization.} 
+%\title{Comparing MapReduce Design Patterns for Big Data
+%Analysis: Definition and Implementation}
  
 % ------------------ ANOTHER FOCUS ----------
 % \title{Towards a Catalogue of MapReduce Design Patterns for Big Data
@@ -213,8 +215,8 @@ advantages and disadvantages of each environment. Likewise, we also
 performed a Systematic Mapping \cite{Petersen:2008} concerning the use and
 composition of these patterns to understand the way in which they are correlated. 
 We expressed and analyzed the results of the Systematic Mapping as bubble
-charts. Finally, from these results we introduce a preliminary set of MapReduce
-design patterns composition for big data analysis. 
+charts. Finally, from these results we introduce a unification of the 
+MapReduce design patterns for big data analysis. 
 \end{abstract}
 
 \begin{keyword}
@@ -239,16 +241,24 @@ Data \sep Pig \sep Hadoop.
 \section{Introduction}\label{sec:intro}
 \input{introduction}
 
+
 %\section{Systematic Mapping Process}\label{sec:mappingprocess}
+\section{Mapping Process}\label{sec:sysmap}
 \input{mappingprocess} 
 
-\section{Working with MapReduce Design Patterns}\label{sec:case-study}
-\input{execution-analysis} 
 
-\section{Composing MapReduce Design Patterns}\label{sec:composition}
-\input{composition-mrdp}
+\section{Unifying Design Patterns Concepts - Towards a New
+Catalogue}\label{sec:catalogue}
+\input{catalogue}
 
-\section{Quantitative and Qualitative Results}\label{sec:lessons-learned}
+% \section{Working with MapReduce Design Patterns}\label{sec:case-study}
+% \input{execution-analysis} 
+% 
+% \section{Composing MapReduce Design Patterns}\label{sec:composition}
+% \input{composition-mrdp}
+
+\section{Comparing Design Pattern Execution in Hadoop and
+Pig - Quantitative Results}\label{sec:lessons-learned}
 \input{lessons-learned}
 
 \section{Conclusions}\label{sec:conclusions}
