@@ -13,12 +13,19 @@
 % mapping by clustering the papers into the mapping categories.
 % \end{enumerate}
 
+ 
+This section presents a systematic mapping analysis. The aim of our
+bibliographic study using the systematic mapping methodology
+\cite{Petersen:2008} is to (i) categorize and quantify the key contributions and
+the evolution of the research done on big data, MapReduce design patterns and
+its classifications; and (ii) discover open issues and limitations of existing works.
 The results of the systematic mapping are presented as
-bubble plots in the next section. These visual representations have two main
+bubble plots. These visual representations have two main
 benefits: (i) it can show the relevance of the mapping facets/categories
 has changed over time and (ii) it can reveal research opportunities
 hidden on the blanks found among classification categories, pointing
-topic areas and types of publications yet to be investigated.
+topic areas and types of publications yet to be investigated. Our study is guided
+by three research questions:
 
 %.........................................................
 % \subsection{Research questions}
@@ -28,13 +35,12 @@ topic areas and types of publications yet to be investigated.
 %... In order to achieve this goal we formulated three research questions:
 
 \begin{itemize}
-\item {\em RQ1: Which are the main map reduce design patterns used in data
+\item {\em RQ1: Which are the main MapReduce design patterns used in data
 analysis?} This question is devoted to measure the map reduce design patterns
 used in big data analysis and to verify which of them are the most common.
 
-\item {\em RQ2: What type of solutions have been proposed considering map
-reduce design patterns?} This question will help us to identify how map reduce
-design patterns are used in data analysis, and also
+\item {\em RQ2: What type of solutions have been proposed considering MapReduce
+design patterns?} This question will help us to identify how map reduce design patterns are used in data analysis, and also
 what type of solution have been proposed for each kind of pattern or
 composition of patterns. It will let us identify how the patterns can be
 composed to a better big data analysis result.
@@ -47,9 +53,8 @@ such as summarization, filtering, data organization and join patterns. These
 patterns can be composed in order to get a better result of the big data
 analysis. Thus, this research question aims to verify if the patterns are often
 compounds, and which kind of composition is made.
-
-
-\end{itemize}
+ 
+\end{itemize} 
 
 % %.........................................................
 % \subsection{Search and Retrieval of Papers}
@@ -100,11 +105,11 @@ of the papers, looking for those papers that are relevant to our study.
 In this process, we excluded 164 works. 
 % The columns \textbf{Included} and \textbf{Excluded} in Table~\ref{table:Sources}
 % show the number of papers that were considered (resp. excluded) on our study.
-
+ 
 Finally, in the last step we built the final data collection using exclusion
 and inclusion criteria shown in table \ref{table:criteria}. The final data
 collection contained 32 papers.
- 
+
 \begin{table}\centering \small
 \begin{tabular}{|l|} \hline
 \textbf{Inclusion criteria}		\\ \hline\hline
@@ -112,8 +117,8 @@ collection contained 32 papers.
 - Peer reviewed journals, conferences or workshops	\\ \hline
 - PhD and master thesis	\\ \hline
 - Focus on Map Reduce Design Patter and Big Data				\\ \hline\hline
-\textbf{Exclusion criteria}		\\ \hline\hline	
-- Abstracts, tutorials, short papers, PhD workshops, demonstrations, technical reports		\\ \hline	
+\textbf{Exclusion criteria}		\\ \hline\hline
+- Abstracts, tutorials, short papers, PhD workshops, demonstrations, technical reports		\\ \hline
 - Papers dealing with service service lookup		\\ \hline
 - Papers dealing with service matching 	\\ \hline
 \end{tabular}
@@ -127,8 +132,161 @@ Analysis facets are classification schemes  that define mapping categories to cl
 All 32 papers in our mapping were analyzed to discover their contribution to
 each of the facets defined for our study.
 The result of this process is a classification of papers for the dimensions of each facet.
-The results are summarized in Tables~\ref{table:biblioSPP} to~\ref{table:biblioISO}.
-The facets with the associated classified references of our SM are described next. 
+
+%The results are summarized in Tables~\ref{table:biblioSPP}
+% to~\ref{table:biblioISO}.
+%The facets with the associated classified references of our SM are described
+% next.
+
+\subsection{Quantitative Analysis}
+
+%The classification facet used in the proposition made by \cite{White:2012}.
+
+Considering the mapping processes presented above, this
+section discusses the quantitative analysis that we propose as a result of
+applying the Systematic Mapping methodology.  
+
+In order to observe the evolution of the publication trends we analyse the
+results from the time screen between the years 2010 and 2014 (see Figure
+\ref{fig:contribution-per-year}). It was from 2010 which the first works
+concerning MapReduce design patterns started to be published.  
+
+% SLA has emerged when Cloud issues started to
+% be addressed around 2009 and publication has increased as cloud infrastructures have become more popular and
+% accessible. It seems indeed that data integration is an open issue when it is
+% combined with SLA and cloud trends. Less recent papers seem to be devoted to the
+% way data is described under schemata or knowledge representation strategies,
+% this could be due to the fact that these strategies are consolidated today and 
+% to the emergence of NoSQL approaches with their schemaless philosophy
+% \cite{sadalage2012nosql}.          
+
+The following lines discuss the answers. We combined the facets for answering
+the research questions proposed for guiding our study. 
+
+\bigskip
+\textbf{\textit{RQ1: Which are the main MapReduce design patterns used in data
+analysis?}} 
+    
+The facets Application Domain, Research Type and Pattern Classification give
+elements for determining which patterns have been used in data analysis (Figures
+\ref{fig:research-patterns-domain}). 
+% and \ref{fig:patterns-domain}).
+
+The resulting shows (in Figure \ref{fig:research-patterns-domain}, right side)
+that most reserches type present \textit{Proposed Solution} and
+\textit{Evaluation} of the application of the patterns, 17 (53.12\%) and 13
+(40.62\%) papers, respectively. \textit{Validation} propositions are 12.5\% of
+the works with 4 papers, and there is work that considers \textit{Opinion}
+research type. This results considers the relation between the Research Type
+facet and the Pattern Classification facet. From those, and considering the
+classification proposed by \cite{White:2012}, the design patterns most used are
+the \textit{I/O} and \textit{Join} patterns, with 8 (25.00\%) and 6 (18.75\%)
+papers, respectively.  The Filtering, Data Organization and Summarization
+patterns appers in 4 (12.50\%), 3 (9.38\%) and 2 (6.25\%) works,
+respectively. 11 paper (34.38\%) of the papers consider othe classification of
+design patterns for MapReduce, some of then presented in \cite{pig-designpattern:2014}.
+ 
+For the Domain Application and Research Type relation (in Figure
+\ref{fig:research-patterns-domain}, left side), the Standard Big Data domain is
+that one which most appers with 28 papers (87.50\%). Graph domain comes just
+after with 10 (31.25\%) works, and then Network and Data Warehouse with 4
+(12.5\%) and 2 (6.25\%) papers, respectively.  
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.99\textwidth]{figs/Research-Patterns-Domain.pdf}
+\caption{Facet Research being related with the facets Pattern
+Classification and Application Domain}
+\label{fig:research-patterns-domain}
+\end{figure}
+
+% \begin{figure}[hbtp]
+% \centering
+% \includegraphics[width=0.79\textwidth]{figs/Patterns-Domain.pdf}
+% \caption{Facets Pattern
+% Classification and Application Domain}
+% \label{fig:patterns-domain}
+% \end{figure}
+  
+\bigskip
+\textbf{\textit{RQ2: What type of solutions have been proposed considering
+MapReduce design patterns?}}
+
+The facet Contribution related with the facets Research Type and Pattern
+Classification give elements for determining which type of solutions been
+proposed for MapReduce design patterns (Figure
+\ref{fig:contribution-patterns-domain}).
+
+The solution most proposed considering the Application domain (felt side of
+Figure \ref{fig:contribution-patterns-domain}) is Algorithms, Method and Tools
+for big data analysis, considering MapReduce design patterns. The two types of
+contribution represents 13 (40.63\%), 9 (28.12\%) and 9 (28.12\%) papers,
+respectively. Literature Analysis and Model have the same number of
+contributions, 7 (21.87\%) papers. Only 4 (12.50\%) works propose new patterns,
+different from those already classified
+\cite{White:2012,pig-designpattern:2014}. Considering all types of contribution,
+the Standard Big Data analysis is the domain that are most applied, 29
+(90.63\%). Ghaph domain has 13 (40.63\%) works which propose a solution using
+some of the design patterns.
+
+For the right side relation of Figure \ref{fig:contribution-patterns-domain},
+Contribution and Pattern Classification, the result is similar from that of
+\textit{RQ1}. textit{I/O} and \textit{Join} patterns, both with 8 (25.00\%)
+papers, are the patterns that most appears in solutions for MapReduce design
+patterns. The most frequantly type of contribution is also \textit{Algorithm}
+and \textit{Tool}.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.99\textwidth]{figs/Contribution-Patterns-Domain.pdf}
+\caption{Facet Contribution being related with the facets Pattern
+Classification and Application Domain}
+\label{fig:contribution-patterns-domain}
+\end{figure}
+
+\bigskip
+\textbf{\textit{RQ3: Which type of relationship between patterns are proposed to
+improve the results of big data analysis?}}
+ 
+Considering the papers that were included in the analysis from the criterias,
+there was no specificy reference for the apply composition or relationship
+between patterns to improve the results of big data analysis. 
+
+
+As the use of MapReduce design patterns is relatively new, the
+composition of different types of patterns should be one factor by which
+there are no reference works that considers this topic.
+Thus we see a challenge and a gap to be considered for improving data analysis
+fromo composition or  relationship between patterns with the goal of finding
+improved results in the analysis.
+ 
+What we can see is the evolution between the years 2010 and 2014 (Figure
+\ref{fig:contribution-per-year}), with the increase of publications considered the use of design patterns to analyze
+mapreduce for big data. As the first classification of patterns using Hadoop
+apperead only in 2012, and the classification of patterns for Pig appeared
+in 2014, this may be another factor to be considered to not find references
+which goal the relationship between existing patterns.
+  
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.69\textwidth]{figs/ContributionPerYear.pdf}
+\caption{Contribution per year}
+\label{fig:contribution-per-year}
+\end{figure}
+
+
+From 2010 to 2014 the number of paper grew up from 5 to 16. The type of
+contribution most considered wwere the proposal of new Algorithm and Tool
+(Figure \ref{fig:contribution-per-year}). However, the number of proposed
+solutions for num Method, New Patterns and Literature Analysis were the ones
+which grew up from 2013 and 2014. 
+
+
+According to our quantitative analysis we observe that the definition of new
+patterns, or a new classification has started to be considered for big data
+analysis. 
+
+%%%%%%%%%%%% FINALIZAR SECAO %%%%%%%%%%%%  
 
 % %_____________________________________________________
 % \paragraph{\bf\em Contribution} 
