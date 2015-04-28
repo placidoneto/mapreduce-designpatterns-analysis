@@ -200,14 +200,14 @@ Cleansing, Transformation and Organization.}
 The objective of this paper is to identify tendencies regarding the use of
 MapReduce design patterns solutions for analysis of large volume of data. The
 aim of the paper is also discuss the possibility of merge these patterns in order to
-achieve more performance results.
+achieve more performance results. 
 MapReduce design patterns provide a general framework for solving big data
 computation issues, without being specific to the problem domain, as traditional
 software engineering design patterns do. To achieve our target, we preceed with
 the execution and analysis of tree group of patterns \cite{Miner:2012}: (i)
 summarization, (ii) filtering and join patterns. The patterns were
 implemented and executed using Pig latin \cite{Olston:2008,gates:2011} and
-Hadoop \cite{White:2012}. 
+Hadoop \cite{White:2012}.  
 We presented and discussed the results to compare the
 diferences between their behavior and know the
 advantages and disadvantages of each environment. Likewise, we also
@@ -216,7 +216,9 @@ composition of these patterns to understand the way in which they are correlated
 We expressed and analyzed the results of the Systematic Mapping as bubble
 charts. Finally, from these results we introduce a new classification catalloge
 of MapReduce design patterns considering the organization proposed by
-\cite{Miner:2012} and \cite{pig-designpattern:2014} for the data analysis.
+\cite{Miner:2012} and \cite{pig-designpattern:2014} for the data analysis, in
+order to acheive a unifying classification of the patterns for for data
+cleansing, transformation, organization and summarization.
 \end{abstract}
 
 \begin{keyword}
@@ -234,6 +236,7 @@ Data \sep Pig \sep Hadoop.
 %%
 %% Start line numbering here if you want
 %% 
+ 
 % \linenumbers
 
 %% main text
@@ -241,25 +244,16 @@ Data \sep Pig \sep Hadoop.
 \section{Introduction}\label{sec:intro}
 \input{introduction}
 
-
-%\section{Systematic Mapping Process}\label{sec:mappingprocess}
 \section{MapReduce Design Patterns: Mapping Analysis}\label{sec:sysmap}
 \input{mappingprocess} 
 
+\section{Comparing MapReduce Design Pattern Execution
+and Results}\label{sec:lessons-learned}
+\input{lessons-learned}
 
 \section{Unifying Design Patterns Concepts - Towards a New
 Catalogue}\label{sec:catalogue}
 \input{catalogue}
-  
-% \section{Working with MapReduce Design Patterns}\label{sec:case-study}
-% \input{execution-analysis} 
-% 
-% \section{Composing MapReduce Design Patterns}\label{sec:composition}
-% \input{composition-mrdp}
-
-\section{Comparing Design Pattern Execution in Hadoop and
-Pig - Quantitative Results}\label{sec:lessons-learned}
-\input{lessons-learned}
 
 \section{Conclusions}\label{sec:conclusions}
 \input{conclusions}
